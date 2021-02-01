@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-img=cv2.imread('C:\\Users\\lakki\\Downloads\\messi.jpg', 1)
+img=cv2.imread('your_file_path.jpg', 1)
 canny=cv2.Canny(img, 300, 450)
 titles=['image', 'canny']
 images=[img, canny]
